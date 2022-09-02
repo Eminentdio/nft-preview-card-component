@@ -53,8 +53,8 @@ With FrontEnd Mentor, I think I can remain consistent with my career in coding. 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/eminentdio)
-- Twitter - [@yourusername](https://www.twitter.com/eminentdio)
+- Frontend Mentor - [@eminentdio](https://www.frontendmentor.io/profile/eminentdio)
+- Twitter - [@eminentdio](https://www.twitter.com/eminentdio)
 
 ## Acknowledgments
 I appreciate the frontend mentor team for giving me an avenue to practise what I thought it was impossible for me and to make feel more confident in my knowlegde.
