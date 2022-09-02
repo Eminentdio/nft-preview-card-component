@@ -1,0 +1,107 @@
+span[class~="sr-only"]{
+    border: 0;
+    clip: rect(1px 1px 1px 1px);
+    clip-path: inset(50%);
+    -webkit-clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 1px;
+    margin: 1px;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.container{
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 9px 4px 9px 4px rgba(0, 0, 0, 0.425);
+}
+h1{
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color:  hsl(0, 0%, 100%);
+}
+h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+p[class="main-paragraph"]{
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+.container img[alt="NFT component image"]{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.container img[alt="NFT component image"]:hover{
+    filter: contrast(70%);
+   cursor: pointer; 
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    border-bottom: 2px solid hsl(215, 32%, 27%) ;
+}
+.details p[class = "time"]{
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(215, 51%, 70%);
+
+}
+.details p[class = "price"]{
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+div.owner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    margin-right: 50px;
+    color: hsl(215, 51%, 70%);
+}
+div.owner img{
+    width: 40px;
+   border: 3px solid white;
+   border-radius: 30px;
+} 
+div.owner a{
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    padding: 4px;
+    color: hsl(0, 0%, 100%);
+}
+div.owner a:hover{
+    color: hsl(178, 100%, 50%);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 5px;
+    color: #fff;
+}
+.attribution a { 
+    
+color: hsl(228, 45%, 44%); 
+
+}
